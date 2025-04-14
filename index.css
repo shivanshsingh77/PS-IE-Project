@@ -14,7 +14,11 @@ body {
     position: absolute;
     top: 10px;
     background: linear-gradient(90deg, #ff8a00, #e52e71);
-    border-radius: 2px;
+    /* color:transparent; */
+    font-size: 2.5rem;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.8px yellow;
    } 
    .container {
     background-color: #4158D0;
