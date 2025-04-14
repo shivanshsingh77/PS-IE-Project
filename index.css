@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     /* background-color: powderblue; */
     /* background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 100%); */
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYndvm-lm0L2jr5KTNefirIeOr2fLRS01HKA&s);
-    background-size: contain;
+    background-image: url(calender\ bg.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
