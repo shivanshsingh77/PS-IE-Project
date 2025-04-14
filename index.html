@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcome To Date Fomatter Poject</h1>
+    <div class="container">
+        <h2>Date Formatter</h2>
+        <input type="date" id="dateInput">
+        <select id="formatSelect">
+          <option value="yyyy-mm-dd">YYYY-MM-DD</option>
+          <option value="dd/mm/yyyy">DD/MM/YYYY</option>
+          <option value="mm-dd-yyyy">MM-DD-YYYY</option>
+          <option value="full">Full Date</option>
+        </select>
+        <button onclick="formatDate()">Format</button>
+        <p id="output"></p>
+       </div>
+
+       <script src="index.js"></script>
+</body>
+</html>
